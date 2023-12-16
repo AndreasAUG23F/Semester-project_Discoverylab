@@ -20,7 +20,7 @@ h2, p, button {
 }
 
 
-/* Common Styles for Explore Sections */
+
 .explore-container {
     position: relative;
     width: 100%;
@@ -82,7 +82,7 @@ button {
     color: rgb(0, 0, 0);
 }
 
-/* Explore Section 1 */
+
 .text-container_top {
     background-image: url(../images/daniel-olah-dFA5XycbhoQ-unsplash.jpg);
     background-size: cover;
@@ -105,7 +105,41 @@ button {
     background-size: cover;
 }
 
-
+@media screen and (max-width: 600px) {
+    .explore-top, .explore-top_2, .explore-top_3, .explore-top_research{
+        font-size: 6vw;
+        padding: 40px;
+        color: white;
+    }
+    
+    .explore-sub {
+        font-size: 4vw;
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    
+    
+    .explore-sub,
+    .explore-text,
+    .explore-text_2,
+    .explore-text_3,
+    .explore-text_research {
+        font-size: 4vw;
+        width: 60%;
+        line-height: 1.5;
+        color: white;
+    
+    }
+    
+    button {
+        margin: 50px;
+        position: relative;
+        text-decoration: none;
+    }
+    
+    
+    
+}
 
 
 

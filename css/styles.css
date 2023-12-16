@@ -80,4 +80,20 @@ button:hover, li:hover, .logo :hover {
         height: 20px; 
     }
 
+    .box-header {
+        font-size: 6vw;
+    }
+
+    p {
+        font-size: 3.5vw;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
 }

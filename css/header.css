@@ -68,7 +68,7 @@ nav ul a {
         left: 50%;
         transform: translateX(-50%);
         width: 90%;
-        background-image: url(/Semester-project_Discoverylab/Images/Skjermbilde\ 2023-12-14\ kl.\ 20.32.26.png);
+        background-image: url(../images/Skjermbilde\ 2023-12-14\ kl.\ 20.32.26.png);
         height: 300px;
         padding: 20px;
         box-sizing: border-box;
@@ -80,8 +80,8 @@ nav ul a {
 
     .menu-toggle:checked ~ nav a {
         text-decoration: none;
-        font-size: 4vw; /* endre størrelsen etter behov */
-        color: white; /* endre fargen etter behov */
+        font-size: 6vw; 
+        color: white; 
         line-height: 2;
         font-weight: bolder;
     }
