@@ -1,6 +1,7 @@
-@import url(/Semester-project_Discoverylab/CSS/styles.css);
-@import url(/Semester-project_Discoverylab/CSS/header.css);
-@import url(/Semester-project_Discoverylab/CSS/footer.css);
+@import url(../css/footer.css);
+@import url(../css/header.css);
+@import url(../css/styles.css);
+
 
 .contribute-section {
     background-image: url(../images/noah-buscher-PSnkh76C-Z8-unsplash.jpg);
