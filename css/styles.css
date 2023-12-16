@@ -35,6 +35,17 @@ button a {
 }
 
 
+button, li {
+    transition: transform 0.3s ease; 
+}
+
+
+button:hover, li:hover {
+    transform: scale(1.1); 
+}
+
+
+
 @media screen and (max-width: 740px){
     button {
         padding: 10px 10px;
