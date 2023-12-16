@@ -10,7 +10,7 @@ h2 {
 }
 
 .contact-section {
-    background-image: url(/Semester-project_Discoverylab/Images/yang-shuo-b8nZU0GYsrg-unsplash.jpg);
+    background-image: url(../images/yang-shuo-b8nZU0GYsrg-unsplash.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -102,7 +102,7 @@ h2 {
 
 
 .front-section {
-    background-image: url(/Semester-project_Discoverylab/Images/museum-img.png);
+    background-image: url(../images/museum-img.png);
     background-size: cover;
     background-position: center;
     position: relative;
