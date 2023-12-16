@@ -35,12 +35,13 @@ button a {
 }
 
 
-button, li {
-    transition: transform 0.3s ease; 
+
+button, li, .logo  {
+    transition: transform 0.5s ease; 
 }
 
 
-button:hover, li:hover {
+button:hover, li:hover, .logo :hover {
     transform: scale(1.1); 
 }
 
