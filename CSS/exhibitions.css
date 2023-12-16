@@ -1,0 +1,149 @@
+@import url(/CSS/styles.css);
+@import url(/CSS/header.css);
+@import url(/CSS/footer.css);
+
+
+
+p {
+    font-size: 1.5vw;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+
+.exhibition-container {
+    background-image: url(/Images/leo-hkJ0g2Wduig-unsplash.jpg);
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    color: white;
+    z-index: 1;
+}
+
+.exhibition-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0px 50px 0px;
+}
+
+.exhibition-header h1 {
+    font-size: 5vw;
+}
+.exhibition-boxes {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.exhibition-box {
+    position: relative;
+    max-width: 500px;
+    margin: 20px;
+    width: 100%;
+    color: white;
+    line-height: 1.5;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.exhibition-box:nth-child(1) {
+    margin-top: 60px;
+}
+
+
+.box-text {
+    font-size: 1.5vw;
+}
+
+
+
+.news-header {
+    display: flex;
+    justify-content: center;
+}
+
+.news-header h2 {
+    font-size: 4vw;
+}
+
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.sub-header h3 {
+    font-size: 3vw;
+}
+
+.news-box {
+    display: flex;
+}
+
+.news-image {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.news-image img {
+    max-width: 100%;
+    margin: 40px;
+}
+
+
+
+.news-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column; 
+    flex: 1;
+}
+
+.news-header,
+.news-text {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px; 
+}
+
+.news-header p {
+    font-size: 2.5vw;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:1025px) {
+    .exhibition-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .news-image {
+        margin: 0;
+    }
+
+    .news-image img {
+        width: 140px;
+    }
+    
+
+    .news-header p {
+        font-size: 4vw;
+    }
+
+    .news-content p {
+        font-size: 3vw;
+    }
+
+
+
+
+    
+}

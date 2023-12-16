@@ -1,0 +1,88 @@
+@import url(/CSS/styles.css);
+@import url(/CSS/header.css);
+@import url(/CSS/footer.css);
+
+.contribute-section {
+    background-image: url(/Images/noah-buscher-PSnkh76C-Z8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.contribute-header {
+    text-align: center;
+    color: white;
+    top: 10%;
+    width: 100%;
+}
+
+.contribute-header h1 {
+    font-size: 5vw;
+}
+.contribute-header h2 {
+    font-size: 2vw;
+}
+
+.contribute-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contribute-box {
+    width: 100%;
+    max-width: 400px; /* Juster maksbredde etter behov */
+    margin: 20px;
+    padding: 30px;
+    color: white;
+    line-height: 1.5;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.contribute-box_2 {
+    max-width: 500px;
+}
+
+
+
+
+.cta {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+@media screen and (min-width: 741px) and (max-width: 1024px) {
+    .contribute-header h1 {
+        font-size: 4vw; 
+    }
+
+    .contribute-header h2 {
+        font-size: 1.5vw; 
+    }
+}
+
+/* Media Queries for mobiltelefoner */
+@media screen and (max-width: 740px) {
+    .contribute-header h1 {
+        font-size: 8vw; 
+    }
+
+    .contribute-header h2 {
+        font-size: 4vw; 
+    }
+
+    .contribute-box {
+        max-width: 50%; 
+        line-height: 2;
+    }
+
+    .box-text {
+        font-size: 3vw;
+    }
+}
