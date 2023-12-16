@@ -1,7 +1,6 @@
-@import url(/CSS/styles.css);
-@import url(/CSS/header.css);
-@import url(/CSS/footer.css);
-
+@import url(/Semester-project_Discoverylab/CSS/footer.css);
+@import url(/Semester-project_Discoverylab/CSS/header.css);
+@import url(/Semester-project_Discoverylab/CSS/styles.css);
 
 
 p {
@@ -14,7 +13,7 @@ h1 {
 
 
 .exhibition-container {
-    background-image: url(/Images/leo-hkJ0g2Wduig-unsplash.jpg);
+    background-image: url(/Semester-project_Discoverylab/Images/leo-hkJ0g2Wduig-unsplash.jpg);
     z-index: 1;
     background-size: cover;
     background-position: center;
