@@ -5,24 +5,24 @@ footer {
 }
 
 .footer-content {
-    max-width: 100%; /* Juster bredden etter behov */
+    max-width: 100%; 
     margin: 0 auto;
     display: flex;
-    flex-direction: row; /* Plasserer elementene fra venstre mot høyre */
-    justify-content: space-between; /* Fordeler elementene jevnt langs hovedaksen */
-    align-items: flex-start; /* Justerer elementene langs tverraksen til toppen */
-    text-align: center; /* Sentrer teksten horisontalt */
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    text-align: center; 
 }
 
 .footer-logo img {
-    max-width: 100px; /* Juster bredden etter behov */
+    max-width: 100px; 
 }
 
 .footer-links,
 .footer-hours,
 .footer-document {
-    flex: 1; /* Deler tilgjengelig plass jevnt mellom elementene */
-    margin: 0 10px; /* Legg til litt mellomrom mellom elementene */
+    flex: 1; 
+    margin: 0 10px; 
 }
 
 .footer-links ul,
@@ -35,13 +35,13 @@ footer {
 
 .footer-links li,
 .footer-document li {
-    margin-bottom: 10px; /* Legg til mellomrom mellom lenkene */
+    margin-bottom: 10px; 
 }
 
 .footer-links a,
 .footer-document a {
     text-decoration: none;
-    color: #2c2b2b; /* Farge for lenker */
+    color: #2c2b2b; 
     font-weight: bold;
     font-size: 1.5vw;
 }
@@ -53,4 +53,60 @@ footer {
 
 .hours-text {
     font-size: 1.5vw;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-content {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .footer-logo {
+        margin-bottom: 20px; 
+    }
+
+    .footer-links a,
+    .footer-document a {
+    font-size: 3.5vw;
+    line-height: 2.5;
+}
+
+    .footer-hours {
+        margin-top: 20px; 
+    }
+
+    .footer-info {
+        margin-top: 20px; 
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+
+    .hours-header p {
+        font-size: 3vw; 
+    }
+
+    .hours-text {
+        font-size: 3vw; 
+    }
+    .footer-links,
+    .footer-hours,
+    .footer-document {
+        margin: 10px; 
+    }
+
+    .footer-links ul,
+    .footer-document ul {
+        padding-top: 0; 
+    }
+
+    .footer-links li,
+    .footer-document li {
+        margin-bottom: 0; 
+    }
+
+    .footer-links a,
+    .footer-document a {
+        font-size: 3vw; 
+    }
+    
 }

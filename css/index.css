@@ -84,24 +84,24 @@ button {
 
 /* Explore Section 1 */
 .text-container_top {
-    background-image: url(/Semester-project_Discoverylab/Images/daniel-olah-dFA5XycbhoQ-unsplash.jpg);
+    background-image: url(../images/daniel-olah-dFA5XycbhoQ-unsplash.jpg);
     background-size: cover;
     z-index: 1;
 }
 
 .text-container_kids {
-    background-image: url(/Semester-project_Discoverylab/Images/lenin-estrada-OI1ToozsKBw-unsplash.jpg);
+    background-image: url(../images/lenin-estrada-OI1ToozsKBw-unsplash.jpg);
     background-size: cover;
 }
 
 
 .text-container_teachers {
-    background-image: url(/Semester-project_Discoverylab/Images/trnava-university-WGG4eD0rQmo-unsplash.jpg);
+    background-image: url(../images/trnava-university-WGG4eD0rQmo-unsplash.jpg);
     background-size: cover;
 }
 
 .text-container_research {
-    background-image: url(/Semester-project_Discoverylab/Images/grianghraf-g6YO_FyafLc-unsplash.jpg);
+    background-image: url(../images/grianghraf-g6YO_FyafLc-unsplash.jpg);
     background-size: cover;
 }
 
