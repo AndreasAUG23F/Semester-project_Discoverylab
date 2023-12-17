@@ -105,7 +105,7 @@ button {
     background-size: cover;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .explore-top, .explore-top_2, .explore-top_3, .explore-top_research{
         font-size: 6vw;
         padding: 40px;
@@ -140,6 +140,10 @@ button {
     
     
 }
+
+
+    
+
 
 
 
