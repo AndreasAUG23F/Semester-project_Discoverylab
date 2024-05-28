@@ -19,7 +19,7 @@ Project Details
     To get started with the Discovery Lab project, follow these steps:
 
   Clone the repository:
-    git clone git@github.com:NoroffFEU/portfolio-2-example.git
+    gh repo clone AndreasAUG23F/Semester-project_Discoverylab
   
   Install the dependencies:
     npm install
