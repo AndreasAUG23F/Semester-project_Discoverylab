@@ -42,7 +42,7 @@ Project Details
 
     MAIL: abrahamsen.andreas@gmail.com
 
-    linkedin: https://www.linkedin.com/in/andreas-abrahamsen-450292133/
+    linkedin: www.linkedin.com/in/andreas-abrahamsen-450292133
 
 ##Acknowledgments
   I would like to thank my instructors and classmates at Noroff for their support and feedback throughout the development of this project. Their guidance was invaluable in helping me learn and grow as a front-end developer.
