@@ -1,7 +1,7 @@
 Project Title
   Discovery Lab
 
-##Project Description
+# #Project Description
   Discovery Lab is a website created as part of my semester project before Christmas in the Front-End Development program at Noroff. T
   he site is designed for a museum and serves as an interactive platform where users can explore various scientific experiments and discoveries. 
   This project was an exciting and comprehensive application of my HTML and CSS skills, showcasing my ability to create engaging and informative web content.
@@ -14,7 +14,7 @@ Project Details
     Engaging Content: Creating visually appealing and informative content, including images and detailed descriptions, to enhance the learning experience.
     User-Friendly Interface: Developing an intuitive and easy-to-navigate interface to help users find and interact with content effortlessly.
 
-##Getting Started
+# #Getting Started
   Installing
     To get started with the Discovery Lab project, follow these steps:
 
@@ -28,7 +28,7 @@ Project Details
     To run the app, use the following command:
     npm run start
 
-##Contributing
+# #Contributing
   Contributions are welcome! If you would like to contribute to the Discovery Lab project, please follow these guidelines:
 
     Fork the repository and create your branch from main.
@@ -37,12 +37,12 @@ Project Details
     Open a pull request to the main branch for review.
 
 
-##Contact
+# #Contact
   Feel free to reach out to me through the following social links:
 
     MAIL: abrahamsen.andreas@gmail.com
 
     linkedin: www.linkedin.com/in/andreas-abrahamsen-450292133
 
-##Acknowledgments
+# #Acknowledgments
   I would like to thank my instructors and classmates at Noroff for their support and feedback throughout the development of this project. Their guidance was invaluable in helping me learn and grow as a front-end developer.
